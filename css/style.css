@@ -1,0 +1,95 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  background-image: url(../images/background.png);
+  padding: 200px 100px;
+}
+
+.banner h1{
+  color: white;
+}
+
+.banner p {
+  color: gray;
+}
+
+.banner a{
+  background-color: #1EDD88;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  border-radius: 15px;
+  padding: 15px 20px;
+  margin-top: 20px;
+}
+
+.container {
+  width: 900px;
+  margin:auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.cards-header {
+  text-align: center;
+}
+
+.card > img {
+  height: 120px;
+}
+
+.card {
+  width: 200px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+ .card p{
+  opacity: 0.5;
+ }
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  padding: 60px;
+  background-color: #2c2b2b;
+}
+
+.footer p {
+  color: #6B6C6C;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.icon {
+  margin-right:10px;
+  text-decoration: none;
+  color: #1EDD88;
+  font-size: 25px;
+  text-align: center;
+}
+
